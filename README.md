@@ -2,6 +2,13 @@
 
 A full-stack AI-powered DIY assistant that analyzes videos and provides step-by-step instructions.
 
+# Screenshots
+
+<p align="left">
+  <img src="./screenshots/upload.png" width="30%" />
+  <img src="./screenshots/results.png" width="30%" />
+</p> 
+
 ## Project Structure
 
 - `frontend/`: React + TypeScript + Tailwind CSS
