@@ -27,7 +27,7 @@ const ResultsPage: React.FC<ResultsPageProps> = ({ results }) => {
                 <h2 className="text-2xl font-bold text-orange-500">Instructions</h2>
             </div>
             
-            <div className="prose prose-invert max-w-none prose-p:leading-relaxed prose-li:my-2 prose-strong:text-blue-400">
+            <div className="prose prose-invert max-w-none prose-p:leading-relaxed prose-li:my-2 prose-strong:text-blue-400 text-left">
               <ReactMarkdown remarkPlugins={[remarkGfm]}>
                 {results}
               </ReactMarkdown>
