@@ -12,7 +12,7 @@ const ResultsPage: React.FC<ResultsPageProps> = ({ results }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[60vh] p-4">
+    <div className="flex flex-col items-center justify-center min-h-[60vh] p-4 mt-[10px]">
       <div className="max-w-3xl w-full bg-gray-800 rounded-xl shadow-2xl p-8 border border-gray-700">
         {!results ? (
             <div className="flex flex-col items-center justify-center py-[1rem]">
