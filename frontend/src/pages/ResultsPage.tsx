@@ -15,8 +15,8 @@ const ResultsPage: React.FC<ResultsPageProps> = ({ results }) => {
     <div className="flex flex-col items-center justify-center min-h-[80vh] p-4">
       <div className="max-w-3xl w-full bg-gray-800 rounded-xl shadow-2xl p-8 border border-gray-700">
         {!results ? (
-          <div className="flex flex-col items-center justify-center py-12">
-            <Loader2 className="w-16 h-16 text-blue-500 animate-spin mb-4" />
+            <div className="flex flex-col items-center justify-center py-[1rem]">
+            <Loader2 className="w-16 h-16 text-blue-500 animate-spin mb-[1rem]" />
             <h2 className="text-2xl font-semibold text-white">FixIt Buddy is thinking...</h2>
             <p className="text-gray-400 mt-2">Analyzing your video for the best solution.</p>
           </div>
