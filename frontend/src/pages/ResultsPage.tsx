@@ -27,8 +27,13 @@ const ResultsPage: React.FC<ResultsPageProps> = ({ results }) => {
                 <h2 className="text-2xl font-bold text-orange-500 pl-[10px]">Instructions</h2>
             </div>
             
-            <div className="prose prose-invert max-w-none prose-p:leading-relaxed prose-li:my-2 prose-strong:text-blue-400 text-left pl-[10px] pr-[10px]">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <div className="prose prose-invert max-w-none prose-p:leading-relaxed prose-li:my-2 text-left pl-[10px] pr-[10px]">
+              <ReactMarkdown 
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  strong: ({node, ...props}) => <strong className="!text-blue-400 font-bold" style={{ color: '#60a5fa' }} {...props} />
+                }}
+              >
                 {results}
               </ReactMarkdown>
             </div>
