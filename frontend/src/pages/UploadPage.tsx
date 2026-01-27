@@ -50,7 +50,7 @@ const UploadPage: React.FC<UploadPageProps> = ({ setResults }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[80vh] p-4">
+    <div className="flex flex-col items-center justify-center min-h-[60vh] p-4">
       <div className="max-w-md w-full bg-gray-800 rounded-xl shadow-2xl p-8 border border-gray-700">
         <h1 className="text-3xl font-bold text-white mb-2 text-center">FixIt Buddy</h1>
         <p className="text-gray-400 mb-8 text-center">Upload a video of your DIY problem and I'll help you fix it!</p>
