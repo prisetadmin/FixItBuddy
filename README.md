@@ -1,11 +1,20 @@
 # FixIt Buddy
+[![Made with Priset](https://img.shields.io/badge/Made%20with-Priset-00155a?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOSAxN0wxMiAxMUwxNSAxN0g5WiIgZmlsbD0iIzBhZjBmMCIvPjxwYXRoIGQ9Ik0xNSAxMUwxMiA1TDkgMTFIMTVaIiBmaWxsPSIjMGFmMGYwIi8+PC9zdmc+)](https://priset.ai)
+[![Watch the Timelapse](https://img.shields.io/badge/Watch%20the-Timelapse%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/jBKaNOHe42Y)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
+
+
+**Scafolded in 18-minutes**
 
 A full-stack AI-powered DIY assistant that analyzes videos and provides step-by-step instructions.
+
+This project was developed as a 'Glass Box' demonstration using [Priset](https://www.priset.ai/). All scaffolding and debugging were performed in a 18-minute collaborative session between a human director and the Gemini-powered Priset engine.
 
 # Screenshots
 
 <p align="left">
   <img src="./screenshots/upload.png" width="30%" />
+  <img src="./screenshots/analyzing.png" width="30%" />
   <img src="./screenshots/results.png" width="30%" />
 </p> 
 
